@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://moeez-ktk:$HF_TOKEN@huggingface.co/spaces/moeez-ktk/Dental-Xray-Type-Classifier main
+        run: git push --force https://moeez-ktk:$HF_TOKEN@huggingface.co/spaces/moeez-ktk/Dental-Xray-Type-Classifier main
